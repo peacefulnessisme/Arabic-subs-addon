@@ -1,0 +1,15 @@
+{
+  "name": "arabic-subs-addon",
+  "version": "1.0.0",
+  "description": "Stremio subtitle addon that aggregates Arabic subtitles from SubDL and SubSource",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
